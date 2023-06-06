@@ -128,7 +128,7 @@ The training log, trained model, and reconstrcuted HSI will be available in `MAU
 ### Testing	
 
 ```shell
-cd SST/real/test_code/
+cd ./real/test_code/
 
 # MAUNSS_3stg
 python test.py  --outf ./exp/MAUNSS_3stg/ --method OLU_3stg  --pretrained_model_path ./MAUNSS_3stg.pth
